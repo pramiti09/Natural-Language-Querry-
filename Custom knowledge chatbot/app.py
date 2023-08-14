@@ -7,7 +7,7 @@ import sys
 import os
 import time
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR API KEY'
 
 def construct_index(directory_path):
     max_input_size = 4096
@@ -38,5 +38,5 @@ iface = gr.Interface(fn=chatbot,
                      outputs="text",
                      title="Custom-trained AI Chatbot")
 
-index = construct_index("docs")
+index = construct_index("documents")
 iface.launch(share=True)
