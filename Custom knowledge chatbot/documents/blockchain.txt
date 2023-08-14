@@ -1,0 +1,113 @@
+The Truth About Blockchain
+
+Contracts, transactions, and the records of them are among the defining structures in our economic, legal, and 
+political systems. They protect assets and set organizational boundaries. They establish and verify identities 
+and chronicle events. They govern interactions among nations, organizations, communities, and individuals. 
+They guide managerial and social action. And yet these critical tools and the bureaucracies formed to manage 
+them have not kept up with the economy’s digital transformation. They’re like a rush-hour gridlock trapping a 
+Formula 1 race car. In a digital world, the way we regulate and maintain administrative control has to change.
+
+Why is blockchain important?
+Traditional database technologies present several challenges for recording financial transactions. For instance, consider the sale of a property. Once the money is exchanged, ownership of the property is transferred to the buyer. Individually, both the buyer and the seller can record the monetary transactions, but neither source can be trusted. The seller can easily claim they have not received the money even though they have, and the buyer can equally argue that they have paid the money even if they haven’t.
+
+To avoid potential legal issues, a trusted third party has to supervise and validate transactions. The presence of this central authority not only complicates the transaction but also creates a single point of vulnerability. If the central database was compromised, both parties could suffer.
+
+Blockchain mitigates such issues by creating a decentralized, tamper-proof system to record transactions. In the property transaction scenario, blockchain creates one ledger each for the buyer and the seller. All transactions must be approved by both parties and are automatically updated in both of their ledgers in real time. Any corruption in historical transactions will corrupt the entire ledger. These properties of blockchain technology have led to its use in various sectors, including the creation of digital currency like Bitcoin.
+
+How do different industries use blockchain?
+Blockchain is an emerging technology that is being adopted in innovative manner by various industries. We describe some use cases in different industries in the following subsections:
+
+Energy
+Energy companies use blockchain technology to create peer-to-peer energy trading platforms and streamline access to renewable energy. For example, consider these uses:
+
+Blockchain-based energy companies have created a trading platform for the sale of electricity between individuals. Homeowners with solar panels use this platform to sell their excess solar energy to neighbors. The process is largely automated: smart meters create transactions, and blockchain records them.
+With blockchain-based crowd funding initiatives, users can sponsor and own solar panels in communities that lack energy access. Sponsors might also receive rent for these communities once the solar panels are constructed.
+Finance
+Traditional financial systems, like banks and stock exchanges, use blockchain services to manage online payments, accounts, and market trading. For example, Singapore Exchange Limited, an investment holding company that provides financial trading services throughout Asia, uses blockchain technology to build a more efficient interbank payment account. By adopting blockchain, they solved several challenges, including batch processing and manual reconciliation of several thousand financial transactions.
+
+Media and entertainment
+Companies in media and entertainment use blockchain systems to manage copyright data. Copyright verification is critical for the fair compensation of artists. It takes multiple transactions to record the sale or transfer of copyright content. Sony Music Entertainment Japan uses blockchain services to make digital rights management more efficient. They have successfully used blockchain strategy to improve productivity and reduce costs in copyright processing.
+
+Retail
+Retail companies use blockchain to track the movement of goods between suppliers and buyers. For example, Amazon retail has filed a patent for a distributed ledger technology system that will use blockchain technology to verify that all goods sold on the platform are authentic. Amazon sellers can map their global supply chains by allowing participants such as manufacturers, couriers, distributors, end users, and secondary users to add events to the ledger after registering with a certificate authority. 
+
+What are the features of blockchain technology?
+Blockchain technology has the following main features:
+
+Decentralization
+Decentralization in blockchain refers to transferring control and decision making from a centralized entity (individual, organization, or group) to a distributed network. Decentralized blockchain networks use transparency to reduce the need for trust among participants. These networks also deter participants from exerting authority or control over one another in ways that degrade the functionality of the network.
+
+Immutability
+Immutability means something cannot be changed or altered. No participant can tamper with a transaction once someone has recorded it to the shared ledger. If a transaction record includes an error, you must add a new transaction to reverse the mistake, and both transactions are visible to the network.
+
+Consensus
+A blockchain system establishes rules about participant consent for recording transactions. You can record new transactions only when the majority of participants in the network give their consent.
+
+What are the key components of blockchain technology?
+Blockchain architecture has the following main components:
+
+A distributed ledger
+
+A distributed ledger is the shared database in the blockchain network that stores the transactions, such as a shared file that everyone in the team can edit. In most shared text editors, anyone with editing rights can delete the entire file. However, distributed ledger technologies have strict rules about who can edit and how to edit. You cannot delete entries once they have been recorded.
+
+Smart contracts
+Companies use smart contracts to self-manage business contracts without the need for an assisting third party. They are programs stored on the blockchain system that run automatically when predetermined conditions are met. They run if-then checks so that transactions can be completed confidently. For example, a logistics company can have a smart contract that automatically makes payment once goods have arrived at the port.
+
+Public key cryptography
+Public key cryptography is a security feature to uniquely identify participants in the blockchain network. This mechanism generates two sets of keys for network members. One key is a public key that is common to everyone in the network. The other is a private key that is unique to every member. The private and public keys work together to unlock the data in the ledger. 
+
+For example, John and Jill are two members of the network. John records a transaction that is encrypted with his private key. Jill can decrypt it with her public key. This way, Jill is confident that John made the transaction. Jill's public key wouldn't have worked if John's private key had been tampered with.
+
+How does blockchain work?
+While underlying blockchain mechanisms are complex, we give a brief overview in the following steps. Blockchain software can automate most of these steps:
+
+Step 1 – Record the transaction
+A blockchain transaction shows the movement of physical or digital assets from one party to another in the blockchain network. It is recorded as a data block and can include details like these:
+
+Who was involved in the transaction?
+What happened during the transaction?
+When did the transaction occur?
+Where did the transaction occur?
+Why did the transaction occur?
+How much of the asset was exchanged?
+How many pre-conditions were met during the transaction?
+Step 2 – Gain consensus
+Most participants on the distributed blockchain network must agree that the recorded transaction is valid. Depending on the type of network, rules of agreement can vary but are typically established at the start of the network.
+
+Step 3 – Link the blocks
+Once the participants have reached a consensus, transactions on the blockchain are written into blocks equivalent to the pages of a ledger book. Along with the transactions, a cryptographic hash is also appended to the new block. The hash acts as a chain that links the blocks together. If the contents of the block are intentionally or unintentionally modified, the hash value changes, providing a way to detect data tampering. 
+
+Thus, the blocks and chains link securely, and you cannot edit them. Each additional block strengthens the verification of the previous block and therefore the entire blockchain. This is like stacking wooden blocks to make a tower. You can only stack blocks on top, and if you remove a block from the middle of the tower, the whole tower breaks.
+
+Step 4 – Share the ledger
+The system distributes the latest copy of the central ledger to all participants.
+
+What are the types of blockchain networks?
+There are four main types of decentralized or distributed networks in the blockchain:
+
+Public blockchain networks
+Public blockchains are permissionless and allow everyone to join them. All members of the blockchain have equal rights to read, edit, and validate the blockchain. People primarily use public blockchains to exchange and mine cryptocurrencies like Bitcoin, Ethereum, and Litecoin. 
+
+Private blockchain networks
+A single organization controls private blockchains, also called managed blockchains. The authority determines who can be a member and what rights they have in the network. Private blockchains are only partially decentralized because they have access restrictions. Ripple, a digital currency exchange network for businesses, is an example of a private blockchain.
+
+Hybrid blockchain networks
+Hybrid blockchains combine elements from both private and public networks. Companies can set up private, permission-based systems alongside a public system. In this way, they control access to specific data stored in the blockchain while keeping the rest of the data public. They use smart contracts to allow public members to check if private transactions have been completed. For example, hybrid blockchains can grant public access to digital currency while keeping bank-owned currency private.
+
+Consortium blockchain networks
+A group of organizations governs consortium blockchain networks. Preselected organizations share the responsibility of maintaining the blockchain and determining data access rights. Industries in which many organizations have common goals and benefit from shared responsibility often prefer consortium blockchain networks. For example, the Global Shipping Business Network Consortium is a not-for-profit blockchain consortium that aims to digitize the shipping industry and increase collaboration between maritime industry operators.
+
+What are blockchain protocols?
+The term blockchain protocol refers to different types of blockchain platforms that are available for application development. Each blockchain protocol adapts the basic blockchain principles to suit specific industries or applications. Some examples of blockchain protocols are provided in the following subsections:
+
+Hyperledger fabric
+Hyperledger Fabric is an open-source project with a suite of tools and libraries. Enterprises can use it to build private blockchain applications quickly and effectively. It is a modular, general-purpose framework that offers unique identity management and access control features. These features make it suitable for various applications, such as track-and-trace of supply chains, trade finance, loyalty and rewards, and clearing settlement of financial assets.
+
+Ethereum
+Ethereum is a decentralized open-source blockchain platform that people can use to build public blockchain applications. Ethereum Enterprise is designed for business use cases.
+
+Corda
+Corda is an open-source blockchain project designed for business. With Corda, you can build interoperable blockchain networks that transact in strict privacy. Businesses can use Corda's smart contract technology to transact directly, with value. Most of its users are financial institutions.
+
+Quorum
+Quorum is an open-source blockchain protocol that is derived from Ethereum. It is specially designed for use in a private blockchain network, where only a single member owns all the nodes, or in a consortium blockchain network, where multiple members each own a portion of the network.
