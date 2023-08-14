@@ -1,1 +1,20 @@
-# this is a comment
+Install OpenAI, GPT Index, PyPDF2, and Gradio Libraries from cmd
+pip install openai
+pip install gpt_index==0.4.24
+pip install langchain==0.0.148
+pip install PyPDF2
+pip install PyCryptodome
+pip install gradio
+Get the OpenAI API Key For Free from platform.openai.com
+Next, move the documents for training inside the “docs” folder. 
+You can add multiple text or PDF files (even scanned ones). If you have a large table in Excel, you can import it as a CSV or PDF file and then add it to the “docs” folder
+Note: If you have a large document, it will take a longer time to process the data, depending on your CPU and GPU. In addition, it will quickly use your free OpenAI tokens. So in the beginning, start with a small document (30-50 pages or < 100MB files) to understand the process.
+Make sure the “docs” folder and “app.py” are in the same location
+Come back to the code again. Here, replace Your API Key with the one that you generated above on OpenAI’s website.
+First, open the Terminal and run  "d:"  It’s where I saved the “docs” folder and “app.py” file.
+Now, run the below command.
+python app.py
+Once the LLM has processed the data, you will find a local URL. Copy it.
+Now, paste the copied URL into the web browser, and there you have it. Your custom-trained ChatGPT-powered AI chatbot is ready. To start, you can ask the AI chatbot what the document is about.
+You can copy the public URL and share it with your friends and family. The link will be live for 72 hours, but you also need to keep your computer turned on since the server instance is running on your computer.
+ To stop the custom-trained AI chatbot, press “Ctrl + C” in the Terminal window
