@@ -8,10 +8,10 @@ from sqlalchemy import text
 import pyodbc
 
 def db_query(table_name, nlp_text):
-    server = '192.168.10.10' 
-    database = 'Rhub_21Aug2022' 
-    username = 'RodicAdmin' 
-    password = 'Rinnovationhub@2021'  
+    server = 'YOUR SERVER' 
+    database = 'DATABASE NAME' 
+    username = 'YOUR USERNAME' 
+    password = 'YOUR PASSWORD'  
     cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password, charset="utf8")
     cursor = cnxn.cursor()
     qh = "SELECT * FROM "
@@ -19,7 +19,7 @@ def db_query(table_name, nlp_text):
     q=qh+table_name+sm
     df = cnxn.execute(q)
     #df = pd.read_sql(q, cnxn)
-    os.environ['OPENAI_API_KEY'] = "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"
+    os.environ['OPENAI_API_KEY'] = "YOUR API KEY"
     def create_table_defination_prompt(df):
         prompt= '''### table with its properties: ##({})#'''.format(",".join(str(x) for x in df.columns))
         return prompt
@@ -27,7 +27,7 @@ def db_query(table_name, nlp_text):
         defination=create_table_defination_prompt(df)
         query_init_string=f"### a query to answer: {query_prompt}\nSelect"
         return defination+query_init_string
-    openai.api_key = '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'
+    openai.api_key = 'YOUR API KEY'
     response=openai.Completion.create(
     model="text-davinci-003",
     prompt=combine_prompts(df,nlp_text),
