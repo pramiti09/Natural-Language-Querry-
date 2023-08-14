@@ -4,7 +4,7 @@ import pandas as pd
 import openai
 import os
 
-df=pd.read_csv("D:\\chatbot_with_nlq(version 1)\\sales_data_sample.csv",encoding="latin1")
+df=pd.read_csv("PATH TO CSV FILE",encoding="latin1")
 from sqlalchemy import create_engine
 from sqlalchemy import text
 
@@ -56,7 +56,7 @@ def combine_prompts(df, query_prompt):
     return defination+query_init_string
 combine_prompts(df, nlp_text)
 
-openai.api_key = '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'
+openai.api_key = 'YOUR API KEY'
 response=openai.Completion.create(
     model="text-davinci-003",
     prompt=combine_prompts(df,nlp_text),
