@@ -1,0 +1,6 @@
+In this Folder there are three files. One is for connection with SQLite and other is to connect to MS SQL Server.
+It also has a file that is wrapped in a function that could directly be called with iron python for the integration with .NET
+The code is made into a function to specifically cater the organizations need.
+Ironpython donot works with Pandas so I have created a function without using pandas also
+All files can run from any ide and the simplest way to run these python script is to go to the directory they are saved in from cmd and run them directly using command 
+python filename.py
