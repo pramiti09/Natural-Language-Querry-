@@ -1,4 +1,5 @@
-In this Folder there are three files. One is for connection with SQLite and other is to connect to MS SQL Server.
+In this Folder there are four files. One is for connection with SQLite and other is to connect to MS SQL Server.
+There is also a ipynb file i.e., a jupyter notebook to easily understand the output of each step
 It also has a file that is wrapped in a function that could directly be called with iron python for the integration with .NET
 The code is made into a function to specifically cater the organizations need.
 Ironpython donot works with Pandas so I have created a function without using pandas also
